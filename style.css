@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-image: linear-gradient(to right,#ffe4c2,#fae3c4,#ffe4c2);
+    color: black;
+    overflow-x: hidden;
+}
+
+#menu{
+    margin-bottom: 10%;
+    width: 100%;
+    opacity: 1;
+}
+
+#container{
+    max-width: 100%;
+    text-align: center;
+}
+
+#contentL{
+    float: left;
+    width: 30%;
+}
+
+.info{
+    padding: 20px;
+    margin-bottom: 20px;
+    margin-left: 40%;
+    margin-right: 0%;
+}
+
+#contentM{
+    float: left;
+    width: 40%;
+}
+
+#contentR{
+    float: left;
+    width: 30%;
+    margin-bottom: 20%;
+}
+
+.exp{
+    padding: 20px;
+    margin-bottom: 20px;
+    margin-left: 0%;
+    margin-right: 40%;
+}
+
+.education{
+    padding: 20px;
+    margin-bottom: 20px;
+    margin-left: 0%;
+    margin-right: 40%;
+}
+
+#skillsL{
+    float: left;
+    width: 50%;
+    text-align: center;
+}
+
+#skillsR{
+    float: left;
+    width: 50%;
+    text-align: center;
+    margin-bottom: 20%;
+}
+
+
+.skill{
+    float: left;
+    margin: auto;
+    margin-top: 100px;
+    margin-left: 50%;
+    margin-right: 50%;
+}
+
+
+.hh2{
+    text-align: center;
+    margin-left: 50%;
+    margin-right: 50%;
+}
+
+#me{
+    width: 50%;
+    height: 25%;
+    border-radius: 50%;
+    margin-bottom: 20%;
+}
+
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.option{
+    float: left;
+    text-align: center;
+    padding: 30px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.option:hover{
+    transform: scale(1.2);
+}
+
+
+.titles{
+    text-align: center;
+    font-weight: bold;
+}
+
+
+.icon{
+    max-width: 200px;
+    max-height: 100px;
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
